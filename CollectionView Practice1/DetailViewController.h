@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DetailViewController.h
 //  CollectionView Practice1
 //
 //  Created by Trevor MacGregor on 2017-03-26.
@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PhotoObject.h"
 
-@interface ViewController : UIViewController
-
+@interface DetailViewController : UIViewController
+@property (nonatomic) PhotoObject *photoObject;
 
 @end
-

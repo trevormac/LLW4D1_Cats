@@ -9,23 +9,33 @@
 /* Begin PBXBuildFile section */
 		698E78E41E88409D00797EDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 698E78E31E88409D00797EDD /* main.m */; };
 		698E78E71E88409D00797EDD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 698E78E61E88409D00797EDD /* AppDelegate.m */; };
-		698E78EA1E88409D00797EDD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 698E78E91E88409D00797EDD /* ViewController.m */; };
 		698E78ED1E88409D00797EDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 698E78EB1E88409D00797EDD /* Main.storyboard */; };
 		698E78EF1E88409D00797EDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 698E78EE1E88409D00797EDD /* Assets.xcassets */; };
 		698E78F21E88409D00797EDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 698E78F01E88409D00797EDD /* LaunchScreen.storyboard */; };
+		69EA15B91E886D590046D152 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69EA15B81E886D590046D152 /* CollectionViewController.m */; };
+		69EA15BC1E886DCB0046D152 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 69EA15BB1E886DCB0046D152 /* CollectionViewCell.m */; };
+		69EA15BF1E886E4B0046D152 /* PhotoObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 69EA15BE1E886E4B0046D152 /* PhotoObject.m */; };
+		69EA15C21E8879940046D152 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69EA15C11E8879940046D152 /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		698E78DF1E88409D00797EDD /* CollectionView Practice1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CollectionView Practice1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		698E78DF1E88409D00797EDD /* Cats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cats.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		698E78E31E88409D00797EDD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		698E78E51E88409D00797EDD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		698E78E61E88409D00797EDD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		698E78E81E88409D00797EDD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		698E78E91E88409D00797EDD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		698E78EC1E88409D00797EDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		698E78EE1E88409D00797EDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		698E78F11E88409D00797EDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		698E78F31E88409D00797EDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69C9131C1E8AEF78004524F7 /* FlickrAPIKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlickrAPIKey.h; sourceTree = "<group>"; };
+		69EA15B71E886D590046D152 /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		69EA15B81E886D590046D152 /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
+		69EA15BA1E886DCB0046D152 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		69EA15BB1E886DCB0046D152 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		69EA15BD1E886E4B0046D152 /* PhotoObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoObject.h; sourceTree = "<group>"; };
+		69EA15BE1E886E4B0046D152 /* PhotoObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoObject.m; sourceTree = "<group>"; };
+		69EA15C01E8879940046D152 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		69EA15C11E8879940046D152 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +52,7 @@
 		698E78D61E88409D00797EDD = {
 			isa = PBXGroup;
 			children = (
-				698E78E11E88409D00797EDD /* CollectionView Practice1 */,
+				698E78E11E88409D00797EDD /* Cats */,
 				698E78E01E88409D00797EDD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,30 +60,38 @@
 		698E78E01E88409D00797EDD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				698E78DF1E88409D00797EDD /* CollectionView Practice1.app */,
+				698E78DF1E88409D00797EDD /* Cats.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		698E78E11E88409D00797EDD /* CollectionView Practice1 */ = {
+		698E78E11E88409D00797EDD /* Cats */ = {
 			isa = PBXGroup;
 			children = (
-				698E78E51E88409D00797EDD /* AppDelegate.h */,
-				698E78E61E88409D00797EDD /* AppDelegate.m */,
-				698E78E81E88409D00797EDD /* ViewController.h */,
-				698E78E91E88409D00797EDD /* ViewController.m */,
 				698E78EB1E88409D00797EDD /* Main.storyboard */,
+				69EA15B71E886D590046D152 /* CollectionViewController.h */,
+				69EA15B81E886D590046D152 /* CollectionViewController.m */,
+				69C9131C1E8AEF78004524F7 /* FlickrAPIKey.h */,
+				69EA15BD1E886E4B0046D152 /* PhotoObject.h */,
+				69EA15BE1E886E4B0046D152 /* PhotoObject.m */,
+				69EA15C01E8879940046D152 /* DetailViewController.h */,
+				69EA15C11E8879940046D152 /* DetailViewController.m */,
+				69EA15BA1E886DCB0046D152 /* CollectionViewCell.h */,
+				69EA15BB1E886DCB0046D152 /* CollectionViewCell.m */,
 				698E78EE1E88409D00797EDD /* Assets.xcassets */,
-				698E78F01E88409D00797EDD /* LaunchScreen.storyboard */,
-				698E78F31E88409D00797EDD /* Info.plist */,
 				698E78E21E88409D00797EDD /* Supporting Files */,
 			);
+			name = Cats;
 			path = "CollectionView Practice1";
 			sourceTree = "<group>";
 		};
 		698E78E21E88409D00797EDD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				698E78F01E88409D00797EDD /* LaunchScreen.storyboard */,
+				698E78F31E88409D00797EDD /* Info.plist */,
+				698E78E51E88409D00797EDD /* AppDelegate.h */,
+				698E78E61E88409D00797EDD /* AppDelegate.m */,
 				698E78E31E88409D00797EDD /* main.m */,
 			);
 			name = "Supporting Files";
@@ -82,9 +100,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		698E78DE1E88409D00797EDD /* CollectionView Practice1 */ = {
+		698E78DE1E88409D00797EDD /* Cats */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 698E78F61E88409D00797EDD /* Build configuration list for PBXNativeTarget "CollectionView Practice1" */;
+			buildConfigurationList = 698E78F61E88409D00797EDD /* Build configuration list for PBXNativeTarget "Cats" */;
 			buildPhases = (
 				698E78DB1E88409D00797EDD /* Sources */,
 				698E78DC1E88409D00797EDD /* Frameworks */,
@@ -94,9 +112,9 @@
 			);
 			dependencies = (
 			);
-			name = "CollectionView Practice1";
+			name = Cats;
 			productName = "CollectionView Practice1";
-			productReference = 698E78DF1E88409D00797EDD /* CollectionView Practice1.app */;
+			productReference = 698E78DF1E88409D00797EDD /* Cats.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -114,7 +132,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 698E78DA1E88409D00797EDD /* Build configuration list for PBXProject "CollectionView Practice1" */;
+			buildConfigurationList = 698E78DA1E88409D00797EDD /* Build configuration list for PBXProject "Cats" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -127,7 +145,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				698E78DE1E88409D00797EDD /* CollectionView Practice1 */,
+				698E78DE1E88409D00797EDD /* Cats */,
 			);
 		};
 /* End PBXProject section */
@@ -150,9 +168,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				698E78EA1E88409D00797EDD /* ViewController.m in Sources */,
+				69EA15BF1E886E4B0046D152 /* PhotoObject.m in Sources */,
 				698E78E71E88409D00797EDD /* AppDelegate.m in Sources */,
 				698E78E41E88409D00797EDD /* main.m in Sources */,
+				69EA15BC1E886DCB0046D152 /* CollectionViewCell.m in Sources */,
+				69EA15B91E886D590046D152 /* CollectionViewController.m in Sources */,
+				69EA15C21E8879940046D152 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +293,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "CollectionView Practice1/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "TMac.CollectionView-Practice1";
+				PRODUCT_BUNDLE_IDENTIFIER = TMac.Cats;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -283,7 +304,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "CollectionView Practice1/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "TMac.CollectionView-Practice1";
+				PRODUCT_BUNDLE_IDENTIFIER = TMac.Cats;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -291,7 +312,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		698E78DA1E88409D00797EDD /* Build configuration list for PBXProject "CollectionView Practice1" */ = {
+		698E78DA1E88409D00797EDD /* Build configuration list for PBXProject "Cats" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				698E78F41E88409D00797EDD /* Debug */,
@@ -300,13 +321,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		698E78F61E88409D00797EDD /* Build configuration list for PBXNativeTarget "CollectionView Practice1" */ = {
+		698E78F61E88409D00797EDD /* Build configuration list for PBXNativeTarget "Cats" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				698E78F71E88409D00797EDD /* Debug */,
 				698E78F81E88409D00797EDD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
