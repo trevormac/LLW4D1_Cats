@@ -90,22 +90,8 @@
                     <view key="view" contentMode="scaleToFill" id="03p-cx-mmG">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="CCJ-8b-fM8">
-                                <rect key="frame" x="20" y="176" width="560" height="220"/>
-                            </imageView>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="CCJ-8b-fM8" firstAttribute="top" secondItem="L5x-8c-sbL" secondAttribute="bottom" constant="112" id="0ZZ-kU-AHH"/>
-                            <constraint firstItem="CCJ-8b-fM8" firstAttribute="centerX" secondItem="03p-cx-mmG" secondAttribute="centerX" id="0z1-ht-4Up"/>
-                            <constraint firstItem="rr3-Eg-cnT" firstAttribute="top" secondItem="CCJ-8b-fM8" secondAttribute="bottom" constant="204" id="bOy-TA-DwI"/>
-                            <constraint firstItem="CCJ-8b-fM8" firstAttribute="leading" secondItem="03p-cx-mmG" secondAttribute="leadingMargin" id="gND-mc-c6I"/>
-                        </constraints>
                     </view>
-                    <connections>
-                        <outlet property="imageView" destination="CCJ-8b-fM8" id="HGk-kM-y0P"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xZj-hu-HHk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

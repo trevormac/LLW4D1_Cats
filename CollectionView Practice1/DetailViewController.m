@@ -18,8 +18,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.imageView.image = self.photoObject.picture;
-    self.title = self.photoObject.title;
+  //  self.imageView.image = self.photoObject.picture;
+    //self.title = self.photoObject.title;
 
     
     

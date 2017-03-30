@@ -83,10 +83,8 @@ static NSString * const reuseIdentifier = @"Cell";
              [photo objectForKey:@"farm"], [photo objectForKey:@"server"],
              [photo objectForKey:@"id"], [photo objectForKey:@"secret"]];
             newPhoto.pictureURL = photoURLString;
-            //add photos to our photoData array
-//            [self.photoData addObject:photoURLString];
-//            NSLog(@"photoURLString: %@", photoURLString);
-           [self.photoData addObject:newPhoto];
+ 
+            [self.photoData addObject:newPhoto];
         }
 
         
@@ -99,6 +97,14 @@ static NSString * const reuseIdentifier = @"Cell";
     }];
     
     [dataTask resume];
+    
+    
+    //Part 2 Adding the geoloaction data
+//    NSURLSessionDataTask *mapDataTask [self.session dataTaskWithRequest:(nonnull NSURLRequest *) completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
+//        
+//    }
+//        
+//    }]
 
 
 

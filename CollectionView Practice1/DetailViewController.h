@@ -10,6 +10,6 @@
 #import "PhotoObject.h"
 
 @interface DetailViewController : UIViewController
-@property (nonatomic) PhotoObject *photoObject;
+
 
 @end
